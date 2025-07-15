@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Certificate Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Raleway:wght@400;500;600&family=Lato:wght@400;700&family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&family=Garamond&family=Georgia&family=Cinzel:wght@400;600&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>Professional Certificate Generator</h1>
+            <p class="tagline">Create authentic-looking certificates powered by AI</p>
+        </header>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label for="category-name">Certificate Category:</label>
+                <input type="text" id="category-name" placeholder="e.g., PrepInsta Certificate, Coursera Certificate, Google Certificate">
+            </div>
+            <div class="input-group">
+                <label for="industry-name">Industry/Field:</label>
+                <input type="text" id="industry-name" placeholder="e.g., Data Science, Web Development, Leadership">
+            </div>
+            <div class="input-group">
+                <label for="recipient-name">Recipient Name:</label>
+                <input type="text" id="recipient-name" placeholder="e.g., John Smith">
+            </div>
+            <button id="generate-btn"><i class="fas fa-certificate"></i> Generate Certificates</button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Generating professional certificates...</p>
+        </div>
+        
+        <div class="certificates-container" id="certificates-container">
+            <!-- Certificate designs will be displayed here -->
+        </div>
+
+        <footer class="app-footer">
+            <p>Professional certificates generated using AI technology</p>
+            <p class="disclaimer">For educational and demonstration purposes only</p>
+        </footer>
+    </div>
+
+    <!-- Web scraper service -->
+    <script src="js/web-scraper.js"></script>
+    <!-- Gemini API script -->
+    <script src="js/gemini.js"></script>
+    <!-- Certificate generator script -->
+    <script src="js/certificate-generator.js"></script>
+    <!-- Configuration script -->
+    <script src="js/config.js"></script>
+    <!-- Main script -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

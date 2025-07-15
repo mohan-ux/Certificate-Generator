@@ -1,0 +1,20 @@
+{
+  "name": "certificate-generator",
+  "version": "1.0.0",
+  "description": "A web application that generates certificate designs using Canvas.js and OpenAI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "certificate",
+    "generator",
+    "canvas",
+    "openai",
+    "html5"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+} 
