@@ -5,7 +5,7 @@ An AI-powered tool that creates authentic-looking certificates for various organ
 ## 🎥 Demo Video
 [![Watch the demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/nRjPIZDpdrQ)
 
-Click the badge above or visit: [https://youtu.be/ucI5f7i6FsI](https://youtu.be/ucI5f7i6FsI)
+Click the badge above or visit: [https://youtu.be/ucI5f7i6FsI](https://youtu.be/nRjPIZDpdrQ)
 
 ## 📋 Project Overview
 
